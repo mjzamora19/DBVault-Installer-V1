@@ -8,19 +8,20 @@
 
 | File | Size | OS |
 |---|---|---|
-| **`DBVault_v1.0.1_Windows.zip`** | 22 MB | Windows 10/11 |
+| **`DBVault_v1.0.2_Windows.zip`** | 27 MB | Windows 10/11 |
 | **`DBVault_v1.0.1_Mac.zip`** | 110 KB | macOS |
 
 ---
 
 -- Windows Install
 
-1. Download `DBVault_v1.0.1_Windows.zip`
+1. Download `DBVault_v1.0.2_Windows.zip`
 2. Extract to any folder
 3. Double-click `DBVault_Start_Run.bat`
-4. Browser opens automatically
+4. On first launch, a Windows admin prompt installs the Microsoft ODBC Driver 18 for SQL Server (~5 MB, one-time, ~30 sec)
+5. Browser opens automatically
 
-No Python install needed. No internet needed. Everything included.
+No Python install needed. No MSSQL/PostgreSQL/MySQL/MongoDB/CouchDB install needed. Just connect to your existing servers.
 
 Optional: Run `Install.bat` to create a desktop shortcut.
 

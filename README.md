@@ -1,6 +1,6 @@
--- DBVault Installer
+-- The DBVault Installer
 
--- DBVault - A Lightweight, Secure, Browser-Based Database Management Tool
+-- The DBVault - A Lightweight, Secure, Browser-Based Database Management Tool
 
 ---
 
@@ -8,14 +8,14 @@
 
 | File | Size | OS |
 |---|---|---|
-| **`DBVault_v1.0.2_Windows.zip`** | 27 MB | Windows 10/11 |
+| **`DBVault_v1.0.3_Windows.zip`** | 27 MB | Windows 10/11 (rebranded to The DBVault, hexagon icon, ODBC bundled) |
 | **`DBVault_v1.0.1_Mac.zip`** | 110 KB | macOS |
 
 ---
 
 -- Windows Install
 
-1. Download `DBVault_v1.0.2_Windows.zip`
+1. Download `DBVault_v1.0.3_Windows.zip`
 2. Extract to any folder
 3. Double-click `DBVault_Start_Run.bat`
 4. On first launch, a Windows admin prompt installs the Microsoft ODBC Driver 18 for SQL Server (~5 MB, one-time, ~30 sec)
@@ -31,7 +31,7 @@ Optional: Run `Install.bat` to create a desktop shortcut.
 2. Extract to any folder
 3. Open Terminal in that folder
 4. Run: `chmod +x DBVault.command && ./Install.command`
-5. Double-click **DBVault** on your desktop
+5. Double-click **The DBVault** on your desktop
 
 Requires: Python 3 (Install.command will guide you)
 
@@ -82,4 +82,4 @@ Requires: Python 3 (Install.command will guide you)
 
 ---
 
-&copy; 2026 DBVault v1.0.1 — All Rights Reserved
+&copy; 2026 The DBVault v1.0.3 — All Rights Reserved

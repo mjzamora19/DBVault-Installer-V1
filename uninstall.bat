@@ -1,15 +1,15 @@
 @echo off
-title DBVault Uninstaller
+title The DBVault Uninstaller
 color 0C
 echo.
 echo  ==========================================
-echo   DBVault - Uninstaller
+echo   The DBVault - Uninstaller
 echo  ==========================================
 echo.
 
-set "INSTALL_DIR=%LOCALAPPDATA%\DBVault"
+set "INSTALL_DIR=%LOCALAPPDATA%\The DBVault"
 
-set /p CONFIRM="  Remove DBVault from your computer? (Y/N): "
+set /p CONFIRM="  Remove The DBVault from your computer? (Y/N): "
 if /i not "%CONFIRM%"=="Y" (
     echo  Uninstall cancelled.
     pause
@@ -22,12 +22,12 @@ taskkill /F /IM DBVault.exe >nul 2>&1
 if exist "%INSTALL_DIR%" rmdir /S /Q "%INSTALL_DIR%"
 
 echo  Removing desktop shortcut...
-del "%USERPROFILE%\Desktop\DBVault.lnk" >nul 2>&1
+del "%USERPROFILE%\Desktop\The DBVault.lnk" >nul 2>&1
 
 echo  Removing Start Menu shortcut...
-del "%APPDATA%\Microsoft\Windows\Start Menu\Programs\DBVault.lnk" >nul 2>&1
+del "%APPDATA%\Microsoft\Windows\Start Menu\Programs\The DBVault.lnk" >nul 2>&1
 
 echo.
-echo  DBVault has been removed.
+echo  The DBVault has been removed.
 echo.
 pause

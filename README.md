@@ -8,14 +8,14 @@
 
 | File | Size | OS |
 |---|---|---|
-| **`DBVault_v1.0.9_Windows.zip`** | 27 MB | Windows 10/11 (The DBVault, honeycomb hexagon logo, ODBC bundled) |
+| **`DBVault_v1.0.10_Windows.zip`** | 27 MB | Windows 10/11 (The DBVault, honeycomb hexagon logo, ODBC bundled) |
 | **`DBVault_v1.0.1_Mac.zip`** | 110 KB | macOS |
 
 ---
 
 -- Windows Install
 
-1. Download `DBVault_v1.0.9_Windows.zip`
+1. Download `DBVault_v1.0.10_Windows.zip`
 2. Extract to any folder
 3. Double-click `DBVault_Start_Run.bat`
 4. On first launch, a Windows admin prompt installs the Microsoft ODBC Driver 18 for SQL Server (~5 MB, one-time, ~30 sec)
@@ -82,4 +82,4 @@ Requires: Python 3 (Install.command will guide you)
 
 ---
 
-&copy; 2026 The DBVault v1.0.9 — All Rights Reserved
+&copy; 2026 The DBVault v1.0.10 — All Rights Reserved
